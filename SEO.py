@@ -564,7 +564,7 @@ class SEOAuditTool:
             # Add logo image at bottom center
 
             try:
-                logo_path = "assets/lo.png"  # Or your uploaded path: /mnt/data/89a5b77a-d21e-454f-8468-c17a034f4053.png
+                logo_path = "lo.png"  # Or your uploaded path: /mnt/data/89a5b77a-d21e-454f-8468-c17a034f4053.png
                 logo_width = 65  # Adjust width as needed
                 page_width = pdf.w  # A4 is 210mm
                 x_position = (page_width - logo_width) / 2
